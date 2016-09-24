@@ -1,17 +1,22 @@
-'use strict'
+'use strict';
 
-  init: function () {
-  },
+ 
 
-
-  preload: function () {
-  },
+var game = new Phaser.Game(568,320);
 
 
-  create: function() {
-  },
+game.state.add('Boot', BootState);  
+game.state.start('Boot')
+
+    
+  
 
 
-  update: function() {
-  },
+
+
+
+
+
+
+
 
